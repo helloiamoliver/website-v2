@@ -21,5 +21,20 @@
     @content;
   }
 }
-
 */
+
+@mixin dark-mode() {
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --color-mode: 'light';
+    }
+
+    :root:not([data-user-color-scheme]) {
+      @content;
+    }
+  }
+
+  [data-user-color-scheme='light'] {
+    @content;
+  }
+}
