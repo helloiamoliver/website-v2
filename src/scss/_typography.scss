@@ -8,6 +8,17 @@
     url('/fonts/lora-v13-latin-700.woff') format('woff');
 }
 
+@font-face {
+  font-family: 'Pacifico';
+  src: url('https://cdn.oliverhewitt.co.uk/fonts/pacifico.woff2') format('woff2')
+    /*,
+           url('https://cdn.oliverhewitt.co.uk/fonts/maragsa-display.woff') format('woff')*/
+  ;
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   // Strip the unit off the size ratio to generate a line height
   $line-height: get-size(600);
