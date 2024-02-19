@@ -6,12 +6,22 @@
       "external": false
     },
     {
-      "text": "GitHub",
-      "url": "https://github.com/andy-piccalilli/hylia",
-      "external": true
+      "text": "About",
+      "url": "/about",
+      "external": false
     },
     {
-      "text": "Example Contact Page",
+      "text": "Posts",
+      "url": "/posts",
+      "external": false
+    },
+    {
+      "text": "Projects",
+      "url": "/projects",
+      "external": false
+    },
+    {
+      "text": "Contact",
       "url": "/contact",
       "external": false
     }
