@@ -1,4 +1,5 @@
 ---
-title: 'Posts Archive'
+title: 'Posts'
 layout: 'layouts/archive.njk'
+permalink: 'posts/index.html'
 ---

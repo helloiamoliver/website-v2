@@ -23,6 +23,7 @@
     {
       "text": "Contact",
       "url": "/contact",
+      "highlight": true,
       "external": false
     }
   ]

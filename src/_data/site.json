@@ -1,7 +1,8 @@
 {
   "showThemeCredit": false,
   "name": "Oliver",
-  "shortDesc": "Hylia is a lightweight Eleventy starter kit to help you to create your own blog or personal website.",
+  "fullName": "Oliver Hewitt",
+  "shortDesc": "I'm a Year 12 Computer Science student, who likes to play around designing different things.",
   "url": "https://hylia.website",
   "authorEmail": "hi@piccalil.li",
   "authorHandle": "@piccalilli_",

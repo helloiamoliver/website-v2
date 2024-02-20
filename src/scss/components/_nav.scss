@@ -31,4 +31,12 @@
       }
     }
   }
+  &__highlight {
+    background-color: var(--color-theme-highlight);
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 40px;
+    color: var(--color-text);
+  }
 }
