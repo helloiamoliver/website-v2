@@ -5,13 +5,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - name: up
+      - name: Build 11ty
+        run: |
+          npm install
+          npm run production
+      - name: Deploy to AWS
         env:
           AWS_ACCESS_KEY_ID: \{\%\- raw \-\%\}$\{\%\- endraw \-\%\}
           AWS_SECRET_ACCESS_KEY: \{\%\- raw \-\%\}$\{\%\- endraw \-\%\}
         run: |
-          npm install
-          npm run production
           aws s3 cp \
             --recursive \
             --acl public-read \
